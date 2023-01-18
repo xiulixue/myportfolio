@@ -1,0 +1,104 @@
+/** @format */
+
+.container.contact_container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+
+.contact_options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact_option {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact_option:hover {
+  background: var(--color-bg-hover);
+  border-color: transparent;
+}
+
+.contact_option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact_option h4 {
+  text-shadow: 1px 1px black;
+}
+.contact_option h5 {
+  color: rgb(176 176 176);
+  text-shadow: 1px 1px rgb(0 0 0);
+}
+.contact_option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+/* ================= FORM ================== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+form {
+  padding-top: 1rem;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.876);
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: smaller;
+  text-shadow: 1px 1px black;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--color-bg-variant);
+  resize: none;
+  color: whitesmoke;
+  transition: var(--transition);
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: smaller;
+  text-shadow: 1px 1px black;
+}
+input:hover {
+  background: var(--color-bg-hover);
+}
+textarea:hover {
+  background: var(--color-bg-hover);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .container.contact_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  a.btn.btn-primary.btn-primary-left {
+    background-color: var(--color-primary-second);
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .container.contact_container {
+    width: var(--container-width-sm);
+  }
+}
