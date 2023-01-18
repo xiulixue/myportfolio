@@ -2,8 +2,8 @@
 
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { RiSoundcloudLine } from "react-icons/ri";
+// import { FaFacebookF } from "react-icons/fa";
+// import { RiSoundcloudLine } from "react-icons/ri";
 
 const Footer = () => {
   return (

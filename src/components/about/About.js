@@ -2,9 +2,8 @@
 
 import React from "react";
 import "./about.css";
-import ME from "../../assets/animate.jpg";
+// import ME from "../../assets/animate.jpg";
 import ME1 from "../../assets/animate-active.jpg";
-import Resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -28,7 +27,7 @@ const About = () => {
         <div className="about_me">
           <div className="about_me-image">
             <a href="https://www.tafensw.edu.au/alumni" target="_blank">
-              <img src={ME1} alt="About Image" />
+              <img src={ME1} alt="AboutMyImage" />
             </a>
           </div>
         </div>
