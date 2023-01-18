@@ -8,7 +8,6 @@ import Projects from "./routes/projects/Projects";
 import Skills from "./routes/skills/Skills";
 import Contact from "./routes/contact/Contact";
 import Footer from "./routes/footer/Footer";
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 
