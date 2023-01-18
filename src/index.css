@@ -159,3 +159,9 @@ img {
     margin-bottom: 2rem;
   }
 }
+
+@media print {
+  body {
+    background: var(--color-bg);
+  }
+}

@@ -5,7 +5,6 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsPrinterFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
 
 const HeaderSocials = () => {
   const printPage = () => {

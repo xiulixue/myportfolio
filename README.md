@@ -11,16 +11,19 @@ This is my personal website. A single front-end website built by React app with 
 ## Sections
 
 ✔️ Header
-✔️ Navbar
+✔️ Nav
 ✔️ About-Me
 ✔️ Project
 ✔️ Skills
 ✔️ Contact-Me
+✔️ Footer
 
 ## Structure
 
 ```bash
 .
+├── build                   # deploy configure
+│   └── static
 ├── src
 │   ├── assets              # Assets
 │   │   │── resume            # files
@@ -33,7 +36,7 @@ This is my personal website. A single front-end website built by React app with 
 │       │── Skills       		  # Skills Section
 │       │── Contact           # Contact Section
 │       └── Footer          	# component - Footer
-└── docs                  # favicon & index
+└── public                  # index & favicon
 ```
 
 ## Technologies used
