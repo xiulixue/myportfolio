@@ -27,18 +27,18 @@ const Contact = () => {
     <section id="contact">
       <h2>Contact Me</h2>
 
-      <div className="container contact_container">
-        <div className="contact_options">
-          <article className="contact_option">
-            <MdOutlineEmail className="contact_option-icon" />
+      <div className="container contact-container">
+        <div className="contact-options">
+          <article className="contact-option">
+            <MdOutlineEmail className="contact-option-icon" />
             <h4>Email</h4>
             <h5>xuemurphy@gmail.com</h5>
             <a href="mailto:xuemurphy@gmail.com" target="_blank">
               Send an email
             </a>
           </article>
-          <article className="contact_option">
-            <RiMessengerLine className="contact_option-icon" />
+          <article className="contact-option">
+            <RiMessengerLine className="contact-option-icon" />
             <h4>Messenger</h4>
             <h5>Xiuli(Murphy) Xue</h5>
             <a href="https://www.facebook.com/snowie.mophy" target="_blank">

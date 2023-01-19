@@ -28,15 +28,15 @@ const Skills = () => {
   return (
     <section id="skills">
       <h2>My Skills</h2>
-      <div className="container skills_container">
+      <div className="container skills-container">
         {/* Languages */}
         <div className="skills-grid">
           <h3>Languages</h3>
-          <div className="skills_content">
+          <div className="skills-content">
             {dataLanguage.map(({ id, value }) => {
               return (
-                <article className="skills_details">
-                  <BsPatchCheckFill className="skills_details-icon" />
+                <article className="skills-details">
+                  <BsPatchCheckFill className="skills-details-icon" />
                   <div>
                     <h4>{value}</h4>
                     <small className="text-light"></small>
@@ -49,11 +49,11 @@ const Skills = () => {
         {/* Framework & Technologies */}
         <div className="skills-grid">
           <h3>Framework & Tech</h3>
-          <div className="skills_content">
+          <div className="skills-content">
             {dataTech.map(({ id, value }) => {
               return (
-                <article className="skills_details">
-                  <BsPatchCheckFill className="skills_details-icon" />
+                <article className="skills-details">
+                  <BsPatchCheckFill className="skills-details-icon" />
                   <div>
                     <h4>{value}</h4>
                     <small className="text-light"></small>

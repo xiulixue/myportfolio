@@ -10,9 +10,9 @@ const About = () => {
     <section id="about">
       <h2>About Me</h2>
 
-      <div className="container about_container">
-        {/* <div class="about_me">
-          <div class="about_me-image">
+      <div className="container about-container">
+        {/* <div class="about-me">
+          <div class="about-me-image">
             <a href="https://www.tafensw.edu.au/alumni" target="_blank">
               <div class="flip-card-front">
                 <img src={ME} alt="My Image" />
@@ -24,15 +24,15 @@ const About = () => {
           </div>
         </div> */}
 
-        <div className="about_me">
-          <div className="about_me-image">
+        <div className="about-me">
+          <div className="about-me-image">
             <a href="https://www.tafensw.edu.au/alumni" target="_blank">
               <img src={ME1} alt="AboutMyImage" />
             </a>
           </div>
         </div>
 
-        <div className="about_content">
+        <div className="about-content">
           <p>
             I am a motivated and enthusiastic front-end developer, keen
             continuous learning and dedicated to delivering high-quality
@@ -55,7 +55,7 @@ const About = () => {
             </a>
           </div>
 
-          {/* <a href="#projects" className="scroll_down">
+          {/* <a href="#projects" className="scroll-down">
             Scroll Down
           </a> */}
         </div>

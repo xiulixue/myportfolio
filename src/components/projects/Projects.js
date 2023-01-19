@@ -29,7 +29,7 @@ const data = [
     id: 3,
     image: IMG3,
     title:
-      "Personal portfolio built on ReactJS with user friendly navigation system. You can download my resume here and contact me via the page.",
+      "Personal portfolio built on React with user friendly navigation system. You can download my resume here and contact me via the page.",
     github: "https://github.com/xiulixue/XiuliXue-Portfolio",
     demo: "https://xiulixue.github.io/XiuliXue-Portfolio",
   },
@@ -58,15 +58,15 @@ const Projects = () => {
     <section id="projects">
       <h2>Projects</h2>
 
-      <div className="container projects_container">
+      <div className="container projects-container">
         {data.map(({ id, image, title, tech, github, demo }) => {
           return (
-            <article key={id} className="projects_item">
-              <div className="projects_item-image">
+            <article key={id} className="projects-item">
+              <div className="projects-item-image">
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <div className="projects_item-cta">
+              <div className="projects-item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github
                 </a>
