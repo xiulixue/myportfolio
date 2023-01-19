@@ -8,7 +8,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#" className="footer_logo">
         Xiuli(Murphy) Xue
       </a>
 
@@ -33,7 +33,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      {/* <div className="footer__socials">
+      {/* <div className="footer_socials">
         <a href="https://www.facebook.com/XerxesArmani">
           <FaFacebookF />
         </a>
@@ -43,7 +43,7 @@ const Footer = () => {
         </a>
       </div> */}
 
-      <div className="footer__copyright">
+      <div className="footer_copyright">
         <small>&copy; Xiuli-Murphy-Xue 2022. All rights reserved.</small>
       </div>
     </footer>

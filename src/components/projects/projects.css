@@ -26,18 +26,23 @@
 .projects_item h3 {
   padding-top: 5px;
   padding-bottom: 5px;
-  color: rgba(255, 255, 255, 0.858);
+  color: var(--color-white);
   font-size: medium;
-  text-shadow: 1px 1px black;
 }
-#projects h2 {
-  margin-top: 2rem;
+.projects_item h3:hover {
+  color: var(--color-bg);
 }
 
 .projects_item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.btn:hover,
+.btn-primary:hover {
+  color: var(--color-bg-hover);
+  text-shadow: 1px 1px black;
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
@@ -47,8 +52,8 @@
     gap: 1.2rem;
   }
   #projects h2 {
-    margin-top: 0px;
-    padding-bottom: 2rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
   .projects_item {
     /* width: 300px; */

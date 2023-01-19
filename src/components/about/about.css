@@ -1,8 +1,4 @@
 /** @format */
-#about {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
 
 .about_container {
   display: grid;
@@ -97,8 +93,9 @@
     grid-template-columns: 1fr;
     gap: 0;
   }
-  #about {
-    padding-bottom: 0;
+  #about h2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
   .about_me {
     width: 50%;
@@ -111,7 +108,7 @@
   }
 
   a.btn.btn-primary.btn-primary-left {
-    background-color: var(--color-primary-second);
+    background-color: var(--color-primary);
   }
 }
 

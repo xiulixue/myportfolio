@@ -55,7 +55,7 @@ const About = () => {
             </a>
           </div>
 
-          {/* <a href="#projects" className="scroll__down">
+          {/* <a href="#projects" className="scroll_down">
             Scroll Down
           </a> */}
         </div>

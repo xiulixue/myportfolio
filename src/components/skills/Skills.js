@@ -5,11 +5,11 @@ import "./skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
 const dataLanguage = [
-  { id: 1, value: "JaveScripe" },
-  { id: 2, value: "React" },
-  { id: 3, value: "HTML" },
-  { id: 4, value: "CSS" },
-  { id: 5, value: "TypeScript" },
+  { id: 1, value: "React" },
+  { id: 2, value: "JaveScript" },
+  { id: 3, value: "CSS" },
+  { id: 4, value: "TypeScript" },
+  { id: 5, value: "HTML" },
   { id: 6, value: "SQL" },
   { id: 7, value: "C#" },
   { id: 8, value: "OOP" },
@@ -21,6 +21,7 @@ const dataTech = [
   { id: 4, value: "Git" },
   { id: 5, value: "Webpack" },
   { id: 6, value: "VS Code" },
+  { id: 7, value: "SASS" },
 ];
 
 const Skills = () => {
@@ -29,7 +30,7 @@ const Skills = () => {
       <h2>My Skills</h2>
       <div className="container skills_container">
         {/* Languages */}
-        <div className="skills_frontend">
+        <div className="skills-grid">
           <h3>Languages</h3>
           <div className="skills_content">
             {dataLanguage.map(({ id, value }) => {
@@ -46,7 +47,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Framework & Technologies */}
-        <div className="skills_backend">
+        <div className="skills-grid">
           <h3>Framework & Tech</h3>
           <div className="skills_content">
             {dataTech.map(({ id, value }) => {

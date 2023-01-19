@@ -13,20 +13,20 @@
 }
 
 :root {
-  --color-bg: linear-gradient(to right, #00aaff, #00ff6c);
-  /* --color-bg-variant: #2c2c6c; */
-  --color-bg-variant: #0081c9;
-  --color-bg-hover: #ffc93c;
+  /* color */
+  --color-bg: #579bb1;
+  --color-bg-variant: #89c4e1;
+  --color-bg-hover: #fbc252;
 
-  --color-primary: #4db5ff;
-  --color-primary-second: #ade600;
-  --color-primary-variant: #686868;
+  --color-primary: #e1d7c6;
+  --color-primary: #e1d7c6;
+  --color-primary-variant: #fbc252;
 
-  /* --color-white: #fff; */
-  --color-white: rgb(255, 253, 253);
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-white: #f8f4ea;
+  --color-light: #e1d7c6;
   --transition: all 400ms ease;
 
+  /* width */
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -46,7 +46,7 @@ body {
   line-height: 1.7;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Raleway", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 /* ============== GENEARL STYLES ============== */
@@ -120,7 +120,7 @@ a:hover {
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 img {

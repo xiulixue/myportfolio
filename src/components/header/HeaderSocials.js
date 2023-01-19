@@ -11,7 +11,7 @@ const HeaderSocials = () => {
     window.print("", "_blank");
   };
   return (
-    <div className="header__socials">
+    <div className="header_socials">
       <a href="http://www.linkedin.com/in/xiuli-xue" target="_blank">
         <BsLinkedin />
       </a>
