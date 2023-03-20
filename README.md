@@ -58,6 +58,9 @@ This is my personal website. A single front-end website built by React app with 
 
 3. Run `[npm start]` (This will start the website on the address [localhost:3000](http://localhost:3000))
 
+## Deploy the application
+4. Deploy the application via this instruction <a href="https://blog.logrocket.com/deploying-react-apps-github-pages/"> Deploying React apps to GitHub Pages </a>
+
 ## Thanks
 
 If you like this website don't forget give it a ⭐ and also feel free to share feedback with me [here](mailto:xuemurphy@gmail.com).
