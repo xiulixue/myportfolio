@@ -5,23 +5,23 @@ import "./skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 
 const dataLanguage = [
-  { id: 1, value: "React" },
-  { id: 2, value: "JaveScript" },
+  { id: 1, value: "JaveScript" },
+  { id: 2, value: "HTML" },
   { id: 3, value: "CSS" },
   { id: 4, value: "TypeScript" },
-  { id: 5, value: "HTML" },
+  { id: 5, value: "SASS" },
   { id: 6, value: "SQL" },
   { id: 7, value: "C#" },
-  { id: 8, value: "OOP" },
+
 ];
 const dataTech = [
-  { id: 1, value: "Node JS" },
-  { id: 2, value: "JSON" },
-  { id: 3, value: "Boostrap" },
+  { id: 1, value: "React JS" },
+  { id: 2, value: "Node JS" },
+  { id: 3, value: "Bootstrap" },
   { id: 4, value: "Git" },
-  { id: 5, value: "Webpack" },
+  { id: 5, value: "AWS" },
   { id: 6, value: "VS Code" },
-  { id: 7, value: "SASS" },
+  { id: 7, value: "Agile" },
 ];
 
 const Skills = () => {
